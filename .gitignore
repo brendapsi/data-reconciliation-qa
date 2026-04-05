@@ -1,0 +1,11 @@
+# Bases de datos (se generan con el script de setup)
+*.db
+
+# Carpetas de Python
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
