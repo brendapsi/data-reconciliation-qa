@@ -12,6 +12,8 @@ Este proyecto simula un escenario real de automatización de QA de datos: valida
 
 La suite de pruebas está construida con **pytest** y ejecuta 9 validaciones automáticas que replican el trabajo manual de reconciliación que realiza un QA de datos. Está diseñada para adaptarse fácilmente a conexiones de bases de datos reales modificando el archivo de configuración.
 
+Este proyecto incluye integración continua con **GitHub Actions** que ejecuta la suite automáticamente en cada push a `main`.
+
 ### Contexto del Problema
 En entornos de datos empresariales, los datos se extraen de sistemas fuente, se transforman y se exponen a través de capas semánticas (como Denodo) para reportes y análisis. Las discrepancias entre el DWH y la capa semántica pueden generar reportes incorrectos, decisiones de negocio erróneas y problemas de confianza en los datos.
 
@@ -44,6 +46,7 @@ Esta suite automatiza la detección de:
 - pandas 3.0.1
 - SQLite3 (simulando Oracle DWH y Denodo)
 - pytest-html (reportes HTML de pruebas)
+- GitHub Actions (CI/CD)
 
 ### Cómo Ejecutarlo
 
@@ -106,6 +109,8 @@ This project simulates a real-world Data QA automation scenario: validating data
 
 The test suite is built with **pytest** and runs 9 automated validations that replicate the manual reconciliation work typically performed by Data QA engineers. It is designed to be easily adapted to real database connections by updating the configuration file.
 
+This project includes continuous integration with **GitHub Actions** that runs the test suite automatically on every push to `main`.
+
 ### Problem Context
 In enterprise data environments, data is extracted from source systems, transformed, and exposed through semantic layers (such as Denodo) for reporting and analytics. Discrepancies between the DWH and the semantic layer can cause incorrect reports, wrong business decisions, and data trust issues.
 
@@ -138,6 +143,7 @@ This suite automates the detection of:
 - pandas 3.0.1
 - SQLite3 (simulating Oracle DWH and Denodo)
 - pytest-html (HTML test reports)
+- GitHub Actions (CI/CD)
 
 ### How to Run
 
