@@ -1,6 +1,8 @@
 # Data Reconciliation QA — Automated Test Suite
 ### Suite Automatizada de Pruebas de Reconciliación de Datos
 
+[![Data Reconciliation QA](https://github.com/brendapsi/data-reconciliation-qa/actions/workflows/tests.yml/badge.svg)](https://github.com/brendapsi/data-reconciliation-qa/actions/workflows/tests.yml)
+
 ---
 
 ## 🇲🇽 Español
